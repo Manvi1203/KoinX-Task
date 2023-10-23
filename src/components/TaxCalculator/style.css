@@ -1,0 +1,164 @@
+.calculator{
+    background-color: white;
+    border-radius: 16px;
+    height: fit-content;
+    position: relative;
+    flex-wrap: wrap;
+    width:95%;
+    margin-right:7%;
+}
+
+.fyYear{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-left: 8%;
+    width:42%;
+}
+
+.country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width:44%;
+}
+.cryptoCalc{
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    /* gap: 18%; */
+    align-items: center;
+}
+
+.heading{
+    color: #0f1629;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 21.6px;
+    margin: 10px 10px;
+    position: relative;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.purchaseSale{
+    display: flex;
+    gap: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 3%;
+}
+.input-container{
+    width:50%;
+}
+.options{
+    width:100%;
+    height:70%;
+    background-color: #EFF2F5;
+    font-family: "Inter", Helvetica;
+    border-radius: 6px;
+    border-color: #EFF2F5;
+}
+.investmentbuttons{
+    display: flex;
+    gap: 24%;
+}
+.selectoptions{
+    width:100%;
+    height:70%;
+    background-color: #EFF2F5;
+    font-family: "Inter", Helvetica;
+}
+/* styles.css */
+.optionsincome{
+    width: 98%;
+    height: 55%;
+    background-color: #EFF2F5;
+    font-family: "Inter", Helvetica;
+    border-radius: 6px;
+    border-color: #EFF2F5;
+    padding-left: 8px;
+    padding-right: 8px
+}
+.option-button {
+    height: 70%;
+    font-family: 'Inter';
+    width: 170%;
+    border-width: thin;
+    border-radius: 6px;
+
+  }
+  .shorttermbutton{
+    width:29%;
+  }
+  /* Add additional styles for button colors based on your requirements */
+  .short-term-button {
+    background: white;
+    color: black;
+  }
+  
+  .long-term-button {
+    background: white;
+    color: black;
+
+  }
+  
+  .short-term-button.active {
+    background: #F0F5FF;
+    color: #0052FE;
+    font-weight: bold;
+    border-color: #0052FE;
+
+  }
+  
+  .long-term-button.active {
+    background: #F0F5FF;
+    color: #0052FE;
+    font-weight: bold;
+    border-color: #0052FE;
+  }
+  
+.gainsinfo{
+    background: #EFF2F5;
+    border-radius: 6px;
+    height: 45%;
+    padding-left: 10px;
+    margin-top: 2px;
+    align-items: center;
+    align-content: center;
+    padding-top: 11px;
+    padding-bottom: 7px;
+}
+
+.gains{
+    display: flex;
+    padding: 3px;
+    /* gap: 35px; */
+    background: #EBF9F4;
+    width: 33%;
+    /* align-self: center; */
+    padding-left: 10%;
+    padding-right: 6%;
+    border-radius: 6px;
+}
+
+.taxes{
+    display: flex;
+    padding: 3px;
+    /* gap: 35px; */
+    background:#EBF2FF;
+    width: 33%;
+    /* align-self: center; */
+    padding-left: 10%;
+    padding-right: 6%;
+    border-radius: 6px;
+}
+.countryOptionss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

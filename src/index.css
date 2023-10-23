@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family:"Inter", Helvetica;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EFF2F5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:where(.css-dev-only-do-not-override-xu9wm8).ant-input-number-affix-wrapper >div.ant-input-number {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #EFF2F5;
+
+}
+
+:where(.css-dev-only-do-not-override-xu9wm8).ant-input-number-affix-wrapper {
+  position: relative;
+  display: inline-flex;
+  width: 90px;
+  min-width: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  background-color: #EFF2F5;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eff2f5;
+  border-radius: 6px;
+  transition: all 0.2s;
+  padding-inline-start: 11px;
+  padding-top:2%;
+  padding-bottom: 2%;
+}
+
+:where(.css-dev-only-do-not-override-xu9wm8).ant-select-single {
+  font-size: 14px;
+  height: 32px;
+  font-family: 'Inter';
+  width: 64%;
+}
+
+
+:where(.css-dev-only-do-not-override-xu9wm8).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  width: 100%;
+  height: 100%;
+  padding: 0 11px;
+  background: #eff2f5;
+}
+
+:where(.css-dev-only-do-not-override-xu9wm8).ant-btn-primary {
+  color: black;
+  background-color: #FFB800;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  font-family:'Inter';
+}

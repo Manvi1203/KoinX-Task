@@ -1,0 +1,48 @@
+.faq-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 16px;
+    height: auto;
+    position: relative;
+    flex-wrap: wrap;
+    width: 64%;
+    padding-top: 2%;
+    margin-top:2%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+  }
+  
+  .faq-item {
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    /* padding: 10px; */
+  }
+  
+  .faq-question {
+    font-weight: bold;
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+  }
+
+  .income-tax-table {
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .income-tax-table th, .income-tax-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .link-to-expert {
+    color: blue;
+
+  }
+  .still-have-doubts{
+    font-size: smaller;
+    font-weight: bold;
+  }
+  
+  

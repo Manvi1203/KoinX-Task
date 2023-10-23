@@ -1,0 +1,89 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: white;
+    height: 50px;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust logo width as needed */
+  }
+  
+  .nav-links {
+    display: flex;
+    margin-left: 40%;
+  }
+  
+  .nav-links a {
+    font-weight: bold;
+    color: #333 ;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  .signin-button {
+    background-color: #fff;
+    color: #0052fe;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color:#0052FE;
+    font-weight: bold;
+
+  }
+  
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    margin: 4px 0;
+    transition: 0.4s;
+    background-color: #333;
+    margin: 2px 0; /* Reduced the gap between the lines */
+ 
+  }
+  
+  /* Media query for mobile view */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: white;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      z-index: 1;
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  
+    .hamburger-menu {
+      display: flex;
+      color:#333;
+    }
+  }
+  
+  /* CSS for hamburger menu animation */
+  .change .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .change .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .change .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
